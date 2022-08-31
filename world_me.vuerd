@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -77.6,
-    "scrollLeft": -130.17291666666657,
-    "zoomLevel": 0.9,
+    "scrollTop": -58.40000000000017,
+    "scrollLeft": -21.599999999999582,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -271,7 +271,7 @@
           },
           {
             "name": "Region",
-            "comment": "지역",
+            "comment": "종교",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -573,7 +573,7 @@
           "active": false,
           "left": 123.2896,
           "top": 304.445,
-          "zIndex": 192,
+          "zIndex": 203,
           "widthName": 73.04931640625,
           "widthComment": 60
         },
@@ -632,7 +632,7 @@
           },
           {
             "name": "IsOffical",
-            "comment": "",
+            "comment": "공통어인가",
             "dataType": "ENUM",
             "default": "",
             "option": {
@@ -647,7 +647,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 67,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -655,7 +655,7 @@
           },
           {
             "name": "Percentage",
-            "comment": "",
+            "comment": "사용퍼센티지",
             "dataType": "DECIMAL",
             "default": "",
             "option": {
@@ -670,7 +670,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 66.9111328125,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -679,9 +679,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 717.64,
-          "top": 415.0514,
-          "zIndex": 191,
+          "left": 719.24,
+          "top": 415.8514,
+          "zIndex": 197,
           "widthName": 127.41064453125,
           "widthComment": 60
         },
@@ -705,8 +705,8 @@
           "columnIds": [
             "cdab63f1-d1bd-4e41-98f9-c287622f16d0"
           ],
-          "x": 717.64,
-          "y": 490.5514,
+          "x": 719.24,
+          "y": 491.3514,
           "direction": "left"
         },
         "end": {
