@@ -1,0 +1,362 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -197.60000000000005,
+    "scrollLeft": -128.13333333333338,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Company",
+        "comment": "회사",
+        "columns": [
+          {
+            "name": "ID",
+            "comment": "아이디",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "6667a2ad-8015-45a2-b775-a5c019e3c853"
+          },
+          {
+            "name": "NAME",
+            "comment": "이름",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "1417c0e3-b1d8-425e-bca2-82b3fa93d25f"
+          },
+          {
+            "name": "AGE",
+            "comment": "나이",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d1d76aa9-542a-46d2-9828-82764e45b501"
+          },
+          {
+            "name": "ADDRESS",
+            "comment": "주소",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "a8a92cc3-9b84-42b2-ab22-4d315f245b9d"
+          },
+          {
+            "name": "SALARY",
+            "comment": "월급",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3fd37a40-24c1-41e4-8da8-4493d265bdbb"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 214.4,
+          "top": 81.6,
+          "zIndex": 19,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "08e26389-14ef-4166-b905-d5a118eddeb7"
+      },
+      {
+        "name": "DEPARTMENT",
+        "comment": "부서 공통",
+        "columns": [
+          {
+            "name": "ID",
+            "comment": "uniqueID",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "8c1d52dc-7aba-4035-857e-8d3de191f4f6"
+          },
+          {
+            "name": "DEPT",
+            "comment": "부서",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "d3f79a37-e708-4ab3-9a2d-00528c8ada58"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 398.4,
+          "top": 616.8,
+          "zIndex": 22,
+          "widthName": 82.970703125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b7effc76-580a-459d-98ee-1223ab91d3cb"
+      },
+      {
+        "name": "Company_DEPT",
+        "comment": "관계 테이블",
+        "columns": [
+          {
+            "name": "Company_ID",
+            "comment": "아이디",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 76.1533203125,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "b172df50-05db-4bcc-9a7c-bcddb1a1769b"
+          },
+          {
+            "name": "DEPT_ID",
+            "comment": "uniqueID",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "1a0c862b-cca7-4413-ae10-f4a4b57ee639"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 270.5333,
+          "top": 380,
+          "zIndex": 51,
+          "widthName": 93.7236328125,
+          "widthComment": 71.5703125
+        },
+        "visible": true,
+        "id": "79e6d717-3250-411c-92b4-21eccdf19288"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "08e26389-14ef-4166-b905-d5a118eddeb7",
+          "columnIds": [
+            "6667a2ad-8015-45a2-b775-a5c019e3c853"
+          ],
+          "x": 402.546484375,
+          "y": 253.1,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "79e6d717-3250-411c-92b4-21eccdf19288",
+          "columnIds": [
+            "b172df50-05db-4bcc-9a7c-bcddb1a1769b"
+          ],
+          "x": 466.75644453125,
+          "y": 380,
+          "direction": "top"
+        },
+        "constraintName": "fk_company_to_company_dept",
+        "visible": true,
+        "id": "c551616c-13ab-4fed-9c8a-626219481935"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b7effc76-580a-459d-98ee-1223ab91d3cb",
+          "columnIds": [
+            "8c1d52dc-7aba-4035-857e-8d3de191f4f6"
+          ],
+          "x": 586.546484375,
+          "y": 616.8,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "79e6d717-3250-411c-92b4-21eccdf19288",
+          "columnIds": [
+            "1a0c862b-cca7-4413-ae10-f4a4b57ee639"
+          ],
+          "x": 466.75644453125,
+          "y": 490,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_department_to_company_dept",
+        "visible": true,
+        "id": "d21cad75-1336-4c8d-9635-3f7834e57f76"
+      }
+    ]
+  }
+}
