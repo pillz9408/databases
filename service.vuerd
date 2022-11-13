@@ -1,0 +1,642 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Join",
+        "comment": "회원정보",
+        "columns": [
+          {
+            "name": "UserID",
+            "comment": "ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9ab85461-7e8a-43e3-9aa7-a1c62bea43c0"
+          },
+          {
+            "name": "PassWord",
+            "comment": "Password",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ad1ca6b0-c040-4ca5-b1bc-40591a9e1a5c"
+          },
+          {
+            "name": "Height",
+            "comment": "height",
+            "dataType": "FLOAT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b4e7f347-d629-4c0d-af91-2d1984808bb2"
+          },
+          {
+            "name": "Weight",
+            "comment": "weight",
+            "dataType": "FLOAT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d504b25c-9df0-49b8-9a83-71249610e820"
+          },
+          {
+            "name": "Age",
+            "comment": "age",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0cc7cb49-1f87-40f6-9730-41eeb6d6510c"
+          },
+          {
+            "name": "Birth",
+            "comment": "birthDate",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 61.42041015625,
+              "widthDefault": 60
+            },
+            "id": "e3ddf655-5697-4270-bf1b-a60400529383"
+          },
+          {
+            "name": "Smoke",
+            "comment": "smoking",
+            "dataType": "BOOLEAN",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 61.22998046875,
+              "widthDefault": 60
+            },
+            "id": "ff8dfef1-fd08-40f3-9f90-afacc4ec9ee7"
+          },
+          {
+            "name": "Drink",
+            "comment": "drinking",
+            "dataType": "BOOLEAN",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 61.22998046875,
+              "widthDefault": 60
+            },
+            "id": "234b6cba-cca2-47f0-a1a4-0d4569e50271"
+          },
+          {
+            "name": "Diease",
+            "comment": "보유질환여부",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "53de0cea-dfe3-4e53-847d-2e05c2b3fa10"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 36,
+          "top": 150,
+          "zIndex": 281,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "1abe62a4-c4b9-47cb-80a2-2010ed14875e"
+      },
+      {
+        "name": "Input",
+        "comment": "등록데이터",
+        "columns": [
+          {
+            "name": "InputNum",
+            "comment": "inputdataNum",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.7314453125,
+              "widthComment": 87.06494140625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "de0dce8f-d403-4903-a4c2-460918ca0af3"
+          },
+          {
+            "name": "UserID",
+            "comment": "ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "32a5b775-eee9-4b5f-a9d4-7e69425e2730"
+          },
+          {
+            "name": "Food",
+            "comment": "food",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0d0b0db1-0f1a-4ee5-b907-4c01ff7a1c3c"
+          },
+          {
+            "name": "Extime",
+            "comment": "exercise time",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 78.83837890625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "56da143d-5556-4324-a275-102b0967d301"
+          },
+          {
+            "name": "TaMed",
+            "comment": "takeMedicine",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 80.2158203125,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "970599b0-915b-48ba-a543-47595a9d48fb"
+          },
+          {
+            "name": "SleepT",
+            "comment": "slepth time",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 68.244140625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5c107f2c-02b3-4086-86ab-b872823050af"
+          },
+          {
+            "name": "BP",
+            "comment": "blood Pressure",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 89.9150390625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a189cc04-a951-4336-b30a-95ed1c6dbc0e"
+          },
+          {
+            "name": "Drinking",
+            "comment": "음주량",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "cfcaab17-c360-4386-a1bf-9d96941dd70f"
+          },
+          {
+            "name": "Smoking",
+            "comment": "흡연량",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dda29cf0-a8f3-40f9-8ecf-ec70f4956a08"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 38,
+          "top": 516,
+          "zIndex": 278,
+          "widthName": 60,
+          "widthComment": 67,
+          "color": "#E4D6D6"
+        },
+        "visible": true,
+        "id": "358159f0-d415-40e5-96cd-c2c1794cba4b"
+      },
+      {
+        "name": "Result",
+        "comment": "결과 데이터",
+        "columns": [
+          {
+            "name": "UserID",
+            "comment": "ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ea2ea2a0-4d0a-458b-93f0-a783e15f00a6"
+          },
+          {
+            "name": "InputNum",
+            "comment": "inputdataNum",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.7314453125,
+              "widthComment": 87.06494140625,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c0a7d133-6d4b-4c14-a49b-3e0e5d194c4c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 687,
+          "top": 382.3333,
+          "zIndex": 283,
+          "widthName": 60,
+          "widthComment": 71.5703125
+        },
+        "visible": true,
+        "id": "af9491cb-816a-429e-b84a-d2612a3e1c90"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "358159f0-d415-40e5-96cd-c2c1794cba4b",
+          "columnIds": [
+            "de0dce8f-d403-4903-a4c2-460918ca0af3"
+          ],
+          "x": 416.646484375,
+          "y": 642.75,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "af9491cb-816a-429e-b84a-d2612a3e1c90",
+          "columnIds": [
+            "c0a7d133-6d4b-4c14-a49b-3e0e5d194c4c"
+          ],
+          "x": 687,
+          "y": 464.8333,
+          "direction": "left"
+        },
+        "constraintName": "fk_input_to_result",
+        "visible": true,
+        "id": "cc8f8d35-6324-4cc9-bbbd-a48a8e73736d"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "1abe62a4-c4b9-47cb-80a2-2010ed14875e",
+          "columnIds": [
+            "9ab85461-7e8a-43e3-9aa7-a1c62bea43c0"
+          ],
+          "x": 220.210205078125,
+          "y": 403.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "358159f0-d415-40e5-96cd-c2c1794cba4b",
+          "columnIds": [
+            "32a5b775-eee9-4b5f-a9d4-7e69425e2730"
+          ],
+          "x": 227.3232421875,
+          "y": 516,
+          "direction": "top"
+        },
+        "constraintName": "fk_join_to_input",
+        "visible": true,
+        "id": "f25183dc-5a52-40bc-98e3-8eaf56d75c7d"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "1abe62a4-c4b9-47cb-80a2-2010ed14875e",
+          "columnIds": [
+            "9ab85461-7e8a-43e3-9aa7-a1c62bea43c0"
+          ],
+          "x": 404.42041015625,
+          "y": 276.75,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "af9491cb-816a-429e-b84a-d2612a3e1c90",
+          "columnIds": [
+            "ea2ea2a0-4d0a-458b-93f0-a783e15f00a6"
+          ],
+          "x": 687,
+          "y": 409.8333,
+          "direction": "left"
+        },
+        "constraintName": "fk_join_to_result",
+        "visible": true,
+        "id": "ba8fb0e4-21f6-47fa-b217-6a9e80ca54e7"
+      }
+    ]
+  }
+}
